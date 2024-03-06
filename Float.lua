@@ -20,7 +20,7 @@ spawn(function()
 
 		-- Create a TweenInfo object to define the properties of the tween
 		local tweenInfo = TweenInfo.new(
-			8, -- Duration (in seconds) of the tween
+			6, -- Duration (in seconds) of the tween
 			Enum.EasingStyle.Linear, -- Easing style of the tween
 			Enum.EasingDirection.InOut, -- Easing direction of the tween
 			-1, -- Number of repetitions (-1 means infinite)
@@ -59,7 +59,7 @@ spawn(function()
 		local targetRotation = initialRotation + Vector3.new(0, angle, 0)
 
 		local tweenInfo = TweenInfo.new(
-			8, -- Duration (in seconds) of the tween
+			6, -- Duration (in seconds) of the tween
 			Enum.EasingStyle.Linear,
 			Enum.EasingDirection.Out,
 			0,
