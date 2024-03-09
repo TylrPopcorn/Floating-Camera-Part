@@ -8,3 +8,10 @@ The **`Float.lua`** script provides an easy way to add subtle floating effects t
 - Download the **`FloatPart.rbxm`** file
 - Open ROBLOX Studio
 - Insert the file by going to File > Insert from file > path.to.floatPart.rbxm
+
+Alternatively, you can download the **`FloatPart.rbxl`** and open the instance directly.
+
+![image](https://github.com/TylrPopcorn/Floating-Camera-Part/assets/104395322/e01e670e-d63f-4d79-8d07-cefa60b10c31)
+
+https://github.com/TylrPopcorn/Floating-Camera-Part/assets/104395322/3aafbedf-f1fa-42a8-b9d2-02e13d029992
+
