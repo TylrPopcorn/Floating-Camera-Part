@@ -5,6 +5,7 @@ task.wait(math.random(1,4))
 local TweenService = game:GetService("TweenService")
 --
 local part = script.Parent
+local speed = 5 --How fast the part moves
 
 ------------------------------			----------------------------------------
 --
@@ -20,7 +21,7 @@ spawn(function()
 
 		-- Create a TweenInfo object to define the properties of the tween
 		local tweenInfo = TweenInfo.new(
-			6, -- Duration (in seconds) of the tween
+			speed, -- Duration (in seconds) of the tween
 			Enum.EasingStyle.Linear, -- Easing style of the tween
 			Enum.EasingDirection.InOut, -- Easing direction of the tween
 			-1, -- Number of repetitions (-1 means infinite)
@@ -50,7 +51,7 @@ end)
 
 -- MOVE THE PART SIDE TO SIDE
 spawn(function()
-	local moveNumb = 1 --How far the part will move to the side.
+	local turnSpeed = 1 --How far the part will move to the side.
 	--[NOTE]: Not sure how well it works when you go below 1.
 	
 	local function rotatePart(part, angle)
@@ -59,7 +60,7 @@ spawn(function()
 		local targetRotation = initialRotation + Vector3.new(0, angle, 0)
 
 		local tweenInfo = TweenInfo.new(
-			6, -- Duration (in seconds) of the tween
+			speed, -- Duration (in seconds) of the tween
 			Enum.EasingStyle.Linear,
 			Enum.EasingDirection.Out,
 			0,
@@ -77,14 +78,14 @@ spawn(function()
 		task.wait()
 		
 		-- Rotate rightwards
-		rotatePart(part, -moveNumb)
+		rotatePart(part, -turnSpeed)
 
 		-- Rotate leftwards
-		local nextVal = -moveNumb + (moveNumb * 3)
+		local nextVal = -turnSpeed + (turnSpeed * 3)
 		rotatePart(part, nextVal)
 
 		-- Rotate rightwards again
-		rotatePart(part, -moveNumb)
+		rotatePart(part, -turnSpeed)
 	end
 end)
 --
