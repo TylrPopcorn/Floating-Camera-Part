@@ -15,3 +15,10 @@ Alternatively, you can download the **`FloatPart.rbxl`** and open the instance d
 
 https://github.com/TylrPopcorn/Floating-Camera-Part/assets/104395322/3aafbedf-f1fa-42a8-b9d2-02e13d029992
 
+
+<br></br>
+# Related Projects
+-  [Regen Button](https://github.com/TylrPopcorn/Regeneration-Block) - *Regenerate a block or instance at ease.*
+
+
+
