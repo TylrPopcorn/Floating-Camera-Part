@@ -19,6 +19,7 @@ https://github.com/TylrPopcorn/Floating-Camera-Part/assets/104395322/3aafbedf-f1
 <br></br>
 # Related Projects
 -  [Regen Button](https://github.com/TylrPopcorn/Regeneration-Block) - *Regenerate a block or instance at ease.*
+-  [Projects List](https://github.com/TylrPopcorn/Projects-List) - *Explore other projects I have worked on*
 
 
 
